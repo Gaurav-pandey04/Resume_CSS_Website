@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5vw;
+}
+
+#all-content {
+    background-color: rgb(235, 235, 235);
+    box-shadow: 10px 10px 10px rgb(197, 195, 195);
+    width: 80vw;
+    height: auto;
+    margin: 10vw auto;
+    position: relative;
+    padding: 1vw;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+#main-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#main-heading img {
+    height: auto;
+    width: 20vw;
+    border-radius: 50%;
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+
+#main-heading h1 {
+    position: absolute;
+    left: 40%;
+    font-size: 5vw;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#primary-content {
+    height: auto;
+    width: 20vw;
+    margin-left: 2vw;
+}
+
+h3 {
+    border-left: 2px solid rgb(255, 149, 0);
+    color: rgb(255, 149, 0);
+    padding: 0.5vw;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    list-style: none;
+    margin-bottom: 1vw;
+}
+
+.contact li {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+}
+
+svg {
+    height: auto;
+    width: 3vw;
+    margin: 0 0.4vw;
+    color: teal;
+}
+
+.details h4 {
+    margin-bottom: 1vw;
+    color: teal;
+}
+
+.details span {
+    margin: 0;
+}
+
+.details p {
+    margin: 0;
+}
+
+#secondary-content {
+    position: absolute;
+    left: 40%;
+}
+
+.field li {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
